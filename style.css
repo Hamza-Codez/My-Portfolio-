@@ -7,21 +7,21 @@ body{
   color: white;
   font-family: 'Poppins', sans-serif;
 }
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+main h1{
+  font-size: 1.8rem;
+  font-weight: 600;
 }
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+main hr{
+  border: 0;
+  background-color: blueviolet;
+  height: 1.2px;
+  margin:24px 0px ;
 }
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
+  height: 70px;
   background-color: rgb(91, 99, 156);
 }
 nav ul{
@@ -43,20 +43,21 @@ nav ul li a:hover{
   font-size: 1rem;
 }
 header .left {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .firstsection{
   display: flex;
-  justify-content: space-around;
-  margin: 80px 0;
+  justify-content: space-between;
+  margin: 85px 0;
   align-items: center;
 }
 .firstsection > div{
     width: 33%;
 }
 .leftsection{
-  font-size: 3rem;
+  font-size: 2.6rem;
+  margin-left: 9%;
 }
 .rightsection img{
   width: 93%;
@@ -67,4 +68,52 @@ header .left {
 }
 #element{
   color: blueviolet;
+}
+.secondsection{
+  max-width: 94vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondsection .head{
+  margin-left: 56px;
+}
+.secondsection .gray-text{
+  color: gray;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.secondsection .hanger{
+  background-color: white;
+  width: 87vw;
+  height: 2px;
+  margin: 45px 55px;
+  display: flex;
+  }
+.secondsection .vertical{
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 2px 90px;
+  }
+.img-top{
+  width: 20px;
+  position: relative;
+  top: -25px;
+  left: -9px;
+}
+.vertical-title{
+  position: relative;
+  top: 65px;
+  width: 135px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-right: 20px;
+}
+.vertical-desc{
+  position: relative;
+  font-size: 0.6rem;
+  width: 154px;
+  top: 80px;
 }
