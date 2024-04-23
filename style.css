@@ -117,3 +117,10 @@ header .left {
   width: 154px;
   top: 80px;
 }
+.secondsection .display-2{
+position: relative;
+top: 25px;
+border: 0;
+border-radius: 50%;
+width: 223px;
+}
