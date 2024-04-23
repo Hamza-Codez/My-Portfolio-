@@ -8,8 +8,8 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 main h1{
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 main hr{
   border: 0;
@@ -46,22 +46,26 @@ header .left {
   font-size: 1.3rem;
 }
 
-.firstsection{
+.firstsection {
   display: flex;
   justify-content: space-between;
   margin: 85px 0;
   align-items: center;
 }
-.firstsection > div{
-    width: 33%;
-}
-.leftsection{
-  font-size: 2.6rem;
+.leftsection {
+  position: relative;
+  right: 33px;  font-size: 2.5rem;
   margin-left: 9%;
 }
-.rightsection img{
-  width: 93%;
+.rightsection img {
+  position: relative;
+  left: 18%;
+  width: 70%;
   height: 99%;
+}
+/* Adjust the width of the parent container */
+.firstsection > div {
+  width: 50%; /* Set each child div to take up 50% of the width */
 }
 .purple{
   color: blueviolet;
@@ -72,7 +76,7 @@ header .left {
 .secondsection{
   max-width: 94vw;
   margin: auto;
-  height: 80vh;
+  height: 180vh;
 }
 .secondsection .head{
   margin-left: 56px;
@@ -119,8 +123,9 @@ header .left {
 }
 .secondsection .display-2{
 position: relative;
-top: 25px;
+top: 60px;
+right: 36px;
 border: 0;
 border-radius: 50%;
-width: 223px;
+width: 233px;
 }
