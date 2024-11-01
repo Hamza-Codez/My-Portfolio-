@@ -58,14 +58,12 @@ header .left {
   margin-left: 9%;
 }
 .rightsection img {
-  position: relative;
-  left: 18%;
-  width: 70%;
-  height: 99%;
+  width: 13rem;
+  margin-left: 20rem;
+  border-radius: 3px;
 }
-/* Adjust the width of the parent container */
 .firstsection > div {
-  width: 50%; /* Set each child div to take up 50% of the width */
+  width: 50%; 
 }
 .purple{
   color: blueviolet;
